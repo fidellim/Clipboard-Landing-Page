@@ -20,15 +20,190 @@ $baiJamjuree: "Bai Jamjuree", sans-serif;
 body {
 	font-size: 18px;
 	font-family: $baiJamjuree;
+	text-align: center;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+main,
+section {
+	padding: 0 1.5rem;
+}
+
+main {
+	margin: 7rem 0 0 0;
+	img {
+		margin: 0 auto 3rem auto;
+	}
+	h1 {
+		margin-bottom: 1.25rem;
+	}
+	p {
+		padding: 0 0.2rem;
+		margin-bottom: 2rem;
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 7rem;
+	}
+	h2 {
+		margin-bottom: 1.25rem;
+	}
+}
+
+.download-ios,
+.download-mac {
+	padding: 1.25rem 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 3px;
+	border-radius: 50px;
+	margin-bottom: 1.5rem;
+}
+
+.download-ios {
+	background-color: $strongCyan;
+	border-bottom-color: rgba(28, 159, 138, 255);
+}
+
+.download-mac {
+	background-color: $lightBlue;
+	border-bottom-color: rgba(97, 116, 254, 255);
+}
+
+.img-computer,
+.img-devices {
+	width: 100%;
+	height: auto;
+}
+
+.img-computer {
+	margin: 4rem 0;
+}
+
+.section-1 {
+	margin-bottom: 10rem;
+	h2 {
+		margin-bottom: 0.75rem;
+	}
+	p {
+		margin-bottom: 3rem;
+	}
+}
+
+.section-2 {
+	margin-bottom: 7rem;
+	h2 {
+		margin-bottom: 1rem;
+	}
+	p {
+		margin-bottom: 3rem;
+	}
+}
+
+.section-3 {
+	margin-bottom: 7rem;
+	h2 {
+		padding: 0 1.5rem;
+		margin-bottom: 1rem;
+	}
+	p {
+		margin-bottom: 6rem;
+	}
+	div {
+		img {
+			margin: 0 auto 3rem auto;
+		}
+		h3 {
+			margin-bottom: 1.5rem;
+		}
+		p {
+			margin-bottom: 3.5rem;
+		}
+	}
+}
+
+.section-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 7rem;
+	img {
+		margin-bottom: 4.5rem;
+	}
+}
+
+.section-5 {
+	margin-bottom: 8rem;
+	h2 {
+		padding: 1rem;
+		margin-bottom: 0.5rem;
+	}
+	p {
+		padding: 0.5rem;
+		margin-bottom: 3rem;
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 footer {
+	background-color: rgba(245, 246, 248, 255);
+	padding: 3.25rem 0;
+	.footer-logo {
+		width: 60px;
+		height: auto;
+		margin: 0 auto 3rem auto;
+	}
 	nav {
 		ul {
 			list-style: none;
 		}
+		li {
+			margin-bottom: 2rem;
+			font-weight: 600;
+		}
 		a {
 			text-decoration: none;
+			color: $darkGrayishBlue;
 		}
 	}
+	.socials {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 30px;
+			height: auto;
+		}
+		.facebook-logo,
+		.twitter-logo {
+			margin-right: 2rem;
+		}
+	}
+}
+
+img {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $darkGrayishBlue;
+}
+
+p {
+	color: $grayishBlue;
+	line-height: 1.5;
 }
