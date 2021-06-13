@@ -66,6 +66,13 @@ main {
 	margin-bottom: 1.5rem;
 }
 
+.download-ios:active,
+.download-mac:active,
+.download-ios:hover,
+.download-mac:hover {
+	opacity: 0.7;
+}
+
 .download-ios {
 	background-color: $strongCyan;
 	border-bottom-color: rgba(28, 159, 138, 255);
@@ -175,6 +182,10 @@ footer {
 			text-decoration: none;
 			color: $darkGrayishBlue;
 		}
+		a:active,
+		a:hover {
+			color: $strongCyan;
+		}
 	}
 	.socials {
 		display: flex;
@@ -182,6 +193,11 @@ footer {
 		img {
 			width: 30px;
 			height: auto;
+		}
+		img:active,
+		img:hover {
+			filter: invert(57%) sepia(69%) saturate(436%) hue-rotate(122deg)
+				brightness(92%) contrast(91%);
 		}
 		.facebook-logo,
 		.twitter-logo {
