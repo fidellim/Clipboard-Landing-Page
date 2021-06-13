@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Solution%20PC.png)
+![](./images/Solution%20Mobile.png)
 
 ### Links
 
@@ -38,40 +39,35 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SASS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+To set all items equally in size as its container's display is in flex. Also, in order for max-width to work for button, you must set width first.
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
+nav {
+	width: 100%;
+	max-width: 500px;
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
+img {
+	flex: 1 1 0;
+}
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To practice more CSS Grid.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Max-width in Button](https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this) - This helped me set a max-width for a button.
+- [Equal Size of Items](https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size) - This made me set each item to be equal in size when container of items are in flex.
+- [Change Color of SVG from Img Tag](https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css) - This helped me change the color of svg from an img tag.
 
 ## Author
 
