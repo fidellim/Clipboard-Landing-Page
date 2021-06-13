@@ -10,6 +10,8 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   text-align: center;
   width: 100%;
+  background: url("./images/bg-header-mobile.png") no-repeat fixed;
+  background-size: contain;
 }
 
 .container {
@@ -205,6 +207,13 @@ h6 {
 p {
   color: #9fabb2;
   line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: url("./images/bg-header-desktop.png") no-repeat fixed;
+    background-size: contain;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
