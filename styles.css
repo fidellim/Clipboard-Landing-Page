@@ -10,4 +10,11 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
 }
 
+footer nav ul {
+  list-style: none;
+}
+footer nav a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

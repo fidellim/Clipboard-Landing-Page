@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fidellim/Clipboard-Landing-Page)
+- Live Site URL: [Live Site](https://hungry-chandrasekhar-e8da03.netlify.app/)
 
 ## My process
 
